@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1rem;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.logo-team {
+    width: 100px;
+}
+
+.logo-thumbnail {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.liga-image {
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    margin: 40px 0;
+}
+
+/* navbar */
+.bg-header {
+    background-color: #41A85F;
+}
+
+.bg-header .nav-wrapper .brand-logo {
+    font-weight: 700;
+}
+
+.bg-header .nav-wrapper .sidenav-trigger {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* home content */
+.home.container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.home.container .row {
+    margin-bottom: 0;
+}
+
+.home.container .row .col {
+    padding: 0;
+}
+
+.app-title {
+    margin-bottom: 30px;
+}
+
+.app-title h4 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.app-title .line {
+    height: 3px;
+    width: 53px;
+    margin: 6px auto 0;
+    border-top: 1px solid #41a85f;
+    border-bottom: 1px solid #41a85f;
+}
+
+.latest-match {
+    background-color: #f3f3f3;
+}
+
+.latest-result,
+.latest-match {
+    padding: 40px;
+}
+
+.latest-result .scorer,
+.latest-match .scorer,
+.latest-result .club-title,
+.latest-match .club-title,
+.latest-result .date,
+.latest-match .date,
+.result .entry .scorer,
+.result .entry .club-title,
+.result .entry .date {
+    padding: 0;
+    margin: 0;
+}
+
+.latest-result .scorer li,
+.latest-match .scorer li,
+.result .entry .scorer li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 6px;
+}
+
+.latest-result .scorer li img,
+.latest-match .scorer li img,
+.result .entry .scorer li img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.latest-result .club-title li,
+.latest-match .club-title li,
+.result .entry .club-title li {
+    display: inline-block;
+    margin: 10px 4px 0;
+    font-weight: 700;
+}
+
+/* standings content */
+.standings {
+    padding: 40px 0 35px;
+}
+
+.standings thead {
+    border-top: 1px solid #d0d0d0;
+}
+
+.standings tr:last-child {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.standings .custom-th,
+.standings .custom-td {
+    padding: 15px 0;
+    display: table-caption;
+}
+
+.standings tr th,
+.standings tr td {
+    font-size: 14px;
+}
+
+.standings tr th {
+    text-align: center;
+}
+
+.standings tr th:nth-child(2),
+.standings tr td:nth-child(2) {
+    text-align: left;
+}
+
+.standings tr td {
+    text-align: center;
+    color: #333;
+    line-height: normal;
+}
+
+/* result dan matches content */
+
+.pages-title {
+    margin-bottom: 30px;
+}
+
+.pages-title h3 {
+    font-size: 26px;
+}
+
+.result.container {
+    margin-top: 40px;
+}
+
+.result.container .row {
+    margin-bottom: 0;
+}
+
+.result .head {
+    background: #575757;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.result .head ul {
+    padding: 0;
+    margin: 0;
+}
+
+.result .head ul li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result .entry {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* profile club */
+.profile-club.container img {
+    width: 200px;
+}
+
+.profile-club.container .row.head,
+.profile-player.container .row.head,
+.teams-fav.container .row.head {
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.profile-club.container .row,
+.profile-player.container .row,
+.teams-fav.container .row {
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+/* profile player */
+.cycle {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 100%;
+    margin-bottom: 40px;
+}
+
+.cycle .number {
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+/* teams fav */
+.action {
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 516px) {
+    span.badge {
+        margin-left: 10px;
+        min-width: 2rem;
+    }
+
+    .logo-team {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 352px) {
+    .logo-team {
+        width: 50px;
+    }
+}
+
+.material-icons {
+    font-size: 14px;
+}
+
+/* loader */
+.loader.container {
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.loader.container img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 993px) {
+    .loader.container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .loader.container {
+        width: 100%;
+        height: 80vh;
+    }
+}
